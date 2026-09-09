@@ -1,0 +1,64 @@
+{
+    "total_students": 2500,
+    "overall_placement_rate": 90.76,
+    "overall_avg_salary": 13.16,
+    "h2h_comparison": {
+        "internship_only": {
+            "placement_rate": 97.75,
+            "avg_salary_placed": 13.21,
+            "avg_employer_pref": 7.68
+        },
+        "certification_only": {
+            "placement_rate": 69.96,
+            "avg_salary_placed": 8.84,
+            "avg_employer_pref": 4.96
+        },
+        "hybrid_both": {
+            "placement_rate": 98.32,
+            "avg_salary_placed": 14.37,
+            "avg_employer_pref": 8.35
+        }
+    },
+    "statistical_tests": {
+        "t_test_salary": {
+            "t_statistic": 20.7347,
+            "p_value": 8.973235576512294e-73,
+            "significant": true
+        },
+        "chi2_placement": {
+            "chi2_statistic": 545.5332,
+            "p_value": 6.458293290916687e-118,
+            "significant": true
+        }
+    },
+    "top_placement_drivers": [
+        {
+            "Feature": "Employer_Preference_Score",
+            "Importance": 0.29754157198038783
+        },
+        {
+            "Feature": "Practical_Skill_Score",
+            "Importance": 0.2511042223949012
+        },
+        {
+            "Feature": "Theoretical_Score",
+            "Importance": 0.2228097908524159
+        },
+        {
+            "Feature": "Age",
+            "Importance": 0.07835216277886607
+        },
+        {
+            "Feature": "Number_of_Certifications",
+            "Importance": 0.06178468201745562
+        },
+        {
+            "Feature": "Number_of_Internships",
+            "Importance": 0.053662938285698264
+        },
+        {
+            "Feature": "Internship_Duration_Months",
+            "Importance": 0.03474463169027511
+        }
+    ]
+}
